@@ -1,14 +1,14 @@
-Name:           fedora-extras-srpm-macros
+Name:           anda-srpm-macros
 Version:        0.1.1
 Release:        1%{?dist}
-Summary:        Fyra Labs extra SRPM macros
+Summary:        SRPM macros for extra Fedora packages
 
 License:        MIT
 # URL:
 Source0:        macros.cargo_extra
 Source1:        macros.caching
 
-Requires:       rust-packaging
+Recommends:     rust-packaging
 Obsoletes:      fyra-srpm-macros < 0.1.1-1
 Provides:       fyra-srpm-macros
 

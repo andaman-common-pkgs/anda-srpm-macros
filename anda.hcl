@@ -1,5 +1,5 @@
-project "fedora-extras-srpm-macros" {
+project "anda-srpm-macros" {
     rpm {
-        spec = "fedora-extras-srpm-macros.spec"
+        spec = "anda-srpm-macros.spec"
     }
 }
