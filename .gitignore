@@ -4,3 +4,4 @@ build/
 *.crate
 *.deb
 *.rpm
+anda-build/
