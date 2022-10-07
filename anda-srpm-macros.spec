@@ -11,7 +11,7 @@ Source1:        macros.caching
 Recommends:     rust-packaging
 Obsoletes:      fyra-srpm-macros < 0.1.1-1
 Provides:       fyra-srpm-macros
-
+BuildArch:      noarch
 %description
 %{summary}
 
